@@ -1,0 +1,39 @@
+{
+  "version": "0.1.0",
+  "name": "KaiNotes-Vanilla-Webpack",
+  "description": "A no nonsense Note Taking app for KaiOS",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/assets/icons/icon16x16.png",
+    "48": "/assets/icons/icon48x48.png",
+    "60": "/assets/icons/icon60x60.png",
+    "128": "/assets/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Huzefa Arif",
+    "url": "https://huzaifa.dev"
+  },
+  "type": "privileged",
+  "permissions": {
+    "geolocation": {
+      "description": "Required for location tagging the user's notes"
+    },
+    "systemXHR": {
+      "description": "Required to get human readable location from coords"
+    }
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    "es": {
+      "name": "KaiNotes-Vanilla-Webpack",
+      "description": "Una aplicación práctica para tomar notas para KaiOS",
+      "permissions": {}
+    }
+  },
+  "default_locale": "en-US",
+  "dependencies": {
+		"ads-sdk": "1.4.1"
+	}
+}
